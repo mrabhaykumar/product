@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+    id 'idea'
+}
+
+group 'unistore'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+test {
+    useJUnitPlatform()
+}
+dependencies {
+   // compile group: 'org.springframework.data', name: 'spring-data-jpa', version: '2.2.6.RELEASE'
+    //compile group: 'org.hibernate.javax.persistence', name: 'hibernate-jpa-2.1-api', version: '1.0.2.Final'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '2.2.6.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-rest', version: '2.2.6.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-jdbc', version: '2.2.6.RELEASE'
+    runtime group: 'com.h2database', name: 'h2', version: '1.4.200'
+    compileOnly 'org.projectlombok:lombok:1.18.12'
+    annotationProcessor 'org.projectlombok:lombok:1.18.12'
+    testImplementation('org.junit.jupiter:junit-jupiter:5.6.1')
+    testCompile ('org.springframework.boot:spring-boot-starter-test:2.2.6.RELEASE'){
+        exclude group: 'junit', module: 'junit'
+    }
+    testCompile group: 'org.junit.vintage', name: 'junit-vintage-engine', version: '5.6.1'
+    testCompile group: 'org.mockito', name: 'mockito-junit-jupiter', version: '3.3.3'
+
+}

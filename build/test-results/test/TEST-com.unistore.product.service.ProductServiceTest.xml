@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.unistore.product.service.ProductServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-04-02T18:52:19" hostname="Abhays-Macbook-Pro.local" time="0.04">
+  <properties/>
+  <testcase name="updateProduct()" classname="com.unistore.product.service.ProductServiceTest" time="0.018"/>
+  <testcase name="getAllProducts()" classname="com.unistore.product.service.ProductServiceTest" time="0.018"/>
+  <testcase name="getProduct()" classname="com.unistore.product.service.ProductServiceTest" time="0.002"/>
+  <testcase name="createProduct()" classname="com.unistore.product.service.ProductServiceTest" time="0.001"/>
+  <system-out><![CDATA[2020-04-03 00:22:19.321  INFO 27720 --- [    Test worker] c.u.product.service.ProductService       : Returned products size 0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

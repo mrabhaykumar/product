@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.unistore.product.repository.ProductRepositoryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-04-02T18:51:59" hostname="Abhays-Macbook-Pro.local" time="0.569">
+  <properties/>
+  <testcase name="insert()" classname="com.unistore.product.repository.ProductRepositoryTest" time="0.564"/>
+  <testcase name="findAll()" classname="com.unistore.product.repository.ProductRepositoryTest" time="0.002"/>
+  <testcase name="update()" classname="com.unistore.product.repository.ProductRepositoryTest" time="0.001"/>
+  <testcase name="fetch()" classname="com.unistore.product.repository.ProductRepositoryTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
