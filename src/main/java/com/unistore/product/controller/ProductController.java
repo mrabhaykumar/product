@@ -22,7 +22,7 @@ public class ProductController {
 
     @GetMapping("")
     public List<Product> getAllProducts(@RequestParam(required = false, defaultValue = "10") int limit,
-                                        @RequestParam(required = false, defaultValue = "o") int offset) {
+                                        @RequestParam(required = false, defaultValue = "0") int offset) {
         return productService.getAllProducts(limit, offset);
     }
 
